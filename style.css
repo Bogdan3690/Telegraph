@@ -1,0 +1,127 @@
+
+:root{
+    --accent-color: #FF0043;
+    --backgroung-color: #FFFFFF;
+    --main-color: #00194A;
+}
+
+body{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+ul,p,h1,h2,h3{
+    margin: 0;
+    padding: 0;
+}
+
+ul, a{
+    text-decoration: none;
+    list-style: none;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+section{
+    padding: 40px 0;
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{ 
+    color: var(--accent-color);
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.try{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+background-color: var(--accent-color);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border-radius: 23px;
+color: var(--backgroung-color);
+box-shadow: 0px 5px 50px 0px rgba(255, 0, 67, 0.10);
+width: 94px;
+height: 46px;
+flex-shrink: 0;
+}
+
+/* hero sec */
+.hero .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-content{
+    width: 552px;
+flex-shrink: 0;
+}
+
+.hero-decoration{
+    border: solid 3px rgb(157, 0, 255);
+}
+
+.hero-title{
+    color: var(--main-color);
+font-family: Roboto;
+font-size: 60px;
+font-style: normal;
+font-weight: 500;
+line-height: 85px;
+margin-bottom: 20px;
+}
+
+.hero-text{
+    color: var(--main-color);
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px;
+flex-shrink: 0;
+margin-bottom: 50px;
+}
+
+.button{
+    color: var(--backgroung-color);
+font-family: "Source Sans Pro";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 275px;
+height: 60px;
+flex-shrink: 0;
+border-radius: 30px;
+background-color: var(--accent-color);
+box-shadow: 0px 5px 50px 0px rgba(255, 0, 67, 0.10);
+}
