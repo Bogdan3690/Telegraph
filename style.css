@@ -87,7 +87,55 @@ flex-shrink: 0;
 }
 
 .hero-decoration{
-    border: solid 3px rgb(157, 0, 255);
+    /* border: solid 3px rgb(157, 0, 255); */
+    position: relative;
+    width: 655px;
+    height: 604px;
+    flex-shrink: 0;
+}
+
+.icon{
+    position: absolute;
+}
+
+.first{
+    left: 128px;
+    top: 0;
+}
+
+.second{
+    bottom: 0;
+    right: 232px;
+}
+
+.third{
+    bottom: 45px;
+    left: 71px;
+}
+
+.four{
+    right: 276px;
+    top: 129px;
+}
+
+.five{
+    left: 0;
+    top: 267px;
+}
+
+.six{
+    top: 47px;
+    right: 108px;
+}
+
+.nine{
+    top: 98px;
+    left: 32px;
+}
+
+.ten{
+    bottom: 94px;
+    right: 11px;
 }
 
 .hero-title{
@@ -124,4 +172,51 @@ flex-shrink: 0;
 border-radius: 30px;
 background-color: var(--accent-color);
 box-shadow: 0px 5px 50px 0px rgba(255, 0, 67, 0.10);
+}
+
+.system-list{
+    display: flex;
+    gap: 30px;
+}
+
+.system-item{
+    width: 360px;
+    padding: 30px;
+}
+
+.system-list .title{
+    margin-bottom: 15px;
+    margin-top: 20px;
+    color: #00194A;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.system-list .text{
+    margin-bottom: 21px;
+    color: var(--main-color);
+font-size: 16px;
+font-weight: 300;
+line-height: 26px;
+opacity: 0.8;
+}
+
+.system-list .link{
+    margin-bottom: 30px;
+    color: var(--main-color);
+    opacity: 0.5022;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+}
+
+.system-icons{
+    width: 60px;
+    height: 60px;
 }
