@@ -255,3 +255,18 @@ margin-top: 5px;
 font-size: 18px;
 font-weight: 500;
 }
+
+.reviews .item{
+    background-color: var(--backgroung-color);
+}
+
+.reviews-list .item{
+    display: flex;
+width: 511px;
+justify-content: center;
+align-items: flex-start;
+gap: 5px;
+}
+
+.reviews-list .item{
+}
