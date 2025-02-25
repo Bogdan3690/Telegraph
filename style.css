@@ -242,6 +242,10 @@ line-height: 28px;
 margin-top: 30px;
 }
 
+.second-part{
+    position: relative;
+}
+
 .second-part .text{
     width: 211px;
 height: 16px;
@@ -256,17 +260,33 @@ font-size: 18px;
 font-weight: 500;
 }
 
-.reviews .item{
-    background-color: var(--backgroung-color);
+.second-part img{
+    border-radius: 10px;
 }
 
 .reviews-list .item{
     display: flex;
-width: 511px;
+background-color: var(--backgroung-color);
 justify-content: center;
 align-items: flex-start;
-gap: 5px;
+position: absolute;
+width: 391px;
+height: 80px;
+border-radius: 10px;
+box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.03);
 }
 
-.reviews-list .item{
+.reviews-list .item:nth-child(1){
+    top: 270px;
+    left: 130px;
+}
+
+.reviews-list .item:nth-child(2){
+    top: 370px;
+    left: 160px;
+}
+
+.reviews-list .item:nth-child(3){
+    top: 470px;
+    left: 190px;
 }
