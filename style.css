@@ -321,3 +321,50 @@ background-color: var(--accent-color);
 .another-text{
     margin-left: 21px;
 }
+
+/* start */
+
+.start{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #00194A;
+    color: #FFFFFF;
+}
+
+.start .button{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Source Sans Pro;
+font-weight: 700;
+font-size: 16px;
+letter-spacing: 0px;
+align-items: center;
+justify-content: center;
+}
+.start .text{
+    margin-top: 30px;
+font-weight: 300;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: center;
+justify-content: center;
+width: 580px;
+height: 56px;
+
+}
+
+.start .title{
+    margin-top: 50px;
+font-size: 35px;
+line-height: 50px;
+text-align: center;
+width: 466px;
+height: 50px;
+
+}
+
+
+.footer{
+}
