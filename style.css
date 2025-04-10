@@ -10,8 +10,6 @@ body{
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 ul,p,h1,h2,h3{
@@ -55,7 +53,6 @@ line-height: normal;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-
 background-color: var(--accent-color);
 font-family: Roboto;
 font-size: 14px;
@@ -143,7 +140,6 @@ line-height: 85px;
 margin-bottom: 20px;
 width: 552px;
 height: 170px;
-flex-shrink: 0;
 }
 
 .hero-text{
@@ -342,6 +338,7 @@ letter-spacing: 0px;
 align-items: center;
 justify-content: center;
 }
+
 .start .text{
     margin-top: 30px;
 font-weight: 300;
@@ -352,7 +349,6 @@ text-align: center;
 justify-content: center;
 width: 580px;
 height: 56px;
-
 }
 
 .start .title{
@@ -362,9 +358,111 @@ line-height: 50px;
 text-align: center;
 width: 466px;
 height: 50px;
-
 }
 
+/* options */
 
-.footer{
+.options{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.community{
+font-size: 35px;
+line-height: 50px;
+width: 466px;
+height: 100px;
+margin-bottom: 30px;
+color: rgba(0, 25, 74, 1);
+}
+
+/* options */
+
+.options .community-text{
+font-weight: 300;
+font-size: 18px;
+line-height: 28px;
+width: 466px;
+height: 115px;
+opacity: 0.8;
+color: rgba(0, 25, 74, 1);
+}
+
+/* keep */
+
+.keep{
+    margin-bottom: 100px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.keep .title{
+    font-family: Roboto;
+font-weight: 500;
+font-size: 35px;
+line-height: 50px;
+letter-spacing: 0px;
+width: 466px;
+height: 100px;
+margin-bottom: 30px;
+}
+
+.span{
+    background: #ffffff;
+    border-radius: 50%;
+    width: 400px;
+height: 400px;
+position: absolute;
+top: 2840px;
+left: 175px;
+}
+
+.img{
+    position: relative;
+}
+
+.circle .first{
+    top: 2790px;
+    left: 310px;
+}
+
+.circle .second{
+    width: 80px;
+    height: 80px;
+top: 2950px;
+left: 500px;
+}
+
+.circle .third{
+    top: 2940px;
+    left: 380px;
+}
+
+.circle .four{
+    top: 2930px;
+    left: 200px;
+}
+
+.circle .five{
+top: 3100px;
+left: 200px;
+}
+
+.circle .six{
+    width: 180px;
+    height: 180px;
+    top: 3050px;
+    left: 400px;
+}
+
+.keep-icon{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 330px;
+    top: 2990px;
+    z-index: 2;
 }
