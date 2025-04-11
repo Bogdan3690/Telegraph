@@ -54,17 +54,13 @@ line-height: normal;
     align-items: center;
     justify-content: center;
 background-color: var(--accent-color);
-font-family: Roboto;
 font-size: 14px;
-font-style: normal;
 font-weight: 700;
-line-height: normal;
 border-radius: 23px;
 color: var(--backgroung-color);
 box-shadow: 0px 5px 50px 0px rgba(255, 0, 67, 0.10);
 width: 94px;
 height: 46px;
-flex-shrink: 0;
 }
 
 /* hero sec */
@@ -83,7 +79,6 @@ flex-shrink: 0;
     position: relative;
     width: 655px;
     height: 604px;
-    flex-shrink: 0;
 }
 
 .icon{
@@ -218,11 +213,14 @@ text-decoration-line: underline;
     flex-direction: row-reverse;
 }
 
+.first-part{
+    margin-top: 70px;
+}
+
 .first-part .simple{
     width: 466px;
 height: 100px;
 color: var(--main-color);
-font-family: Roboto;
 font-size: 35px;
 font-weight: 500;
 line-height: 50px; 
@@ -395,74 +393,83 @@ color: rgba(0, 25, 74, 1);
 .keep{
     margin-bottom: 100px;
     margin-top: 100px;
-    display: flex;
-    flex-direction: row-reverse;
 }
 
 .keep .title{
-    font-family: Roboto;
-font-weight: 500;
 font-size: 35px;
 line-height: 50px;
-letter-spacing: 0px;
 width: 466px;
 height: 100px;
 margin-bottom: 30px;
 }
 
-.span{
+.icons{
+    position: absolute;
+}
+
+.keep-icon{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    bottom: 40px;
+    left: 280px;
+    z-index: 2;
+}
+
+.content .title{
+    color: rgba(0, 25, 74, 1);
+    width: 466px;
+    height: 100px;
+    top: 2799px;
+    left: 727px;
+font-size: 35px;
+line-height: 50px;
+margin-top: 30px;
+}
+
+.content .text{
+    color: rgba(0, 25, 74, 1);
+font-weight: 300;
+font-size: 18px;
+line-height: 28px;
+width: 466px;
+height: 112px;
+top: 2929px;
+left: 727px;
+opacity: 0.8;
+}
+
+.white{
     background: #ffffff;
     border-radius: 50%;
     width: 400px;
 height: 400px;
+display: flex;
 position: absolute;
-top: 2840px;
-left: 175px;
+left: 130px;
+bottom: -130px;
 }
 
-.img{
+.circle {
     position: relative;
 }
 
-.circle .first{
-    top: 2790px;
-    left: 310px;
-}
-
 .circle .second{
-    width: 80px;
-    height: 80px;
-top: 2950px;
-left: 500px;
+    left: 350px;
+    bottom: 160px;
 }
 
 .circle .third{
-    top: 2940px;
-    left: 380px;
-}
-
-.circle .four{
-    top: 2930px;
-    left: 200px;
-}
-
-.circle .five{
-top: 3100px;
-left: 200px;
+    left: 130px;
+    bottom: 100px;
 }
 
 .circle .six{
-    width: 180px;
-    height: 180px;
-    top: 3050px;
-    left: 400px;
+    left: 350px;
+    top: -10px;
 }
 
-.keep-icon{
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    left: 330px;
-    top: 2990px;
-    z-index: 2;
+.keep{
+    display: flex;
+    flex-direction: row-reverse;  /* ? */
 }
